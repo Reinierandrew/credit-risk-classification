@@ -16,7 +16,7 @@ The features are:
 
 The goal is to create a model with which I can accurately predict of a loan is healthy or at high risk of defaulting.
  
- In analysing the dataset a concern is the low number (3%) of high risk loans on which I can build a prediction.
+In analysing the dataset a concern is the low number (3%) of high risk loans on which I can build a prediction.
  
 ### Logistic regression
  
@@ -52,7 +52,7 @@ oversample = RandomOverSampler(sampling_strategy='minority',
 
 Despite the precision dipping slightly to 84% and an increase in predictions that a loan was high risk when in 'reality' it was healthy this model is superior to the previous standard Logistic Regression model.  
 
-Using the OverSampler module  only <mark>4</mark> loans were predicted to be healthy but in 'reality' were high risk'.As a result the recall rate on high risk loans improved drastically from 91% to 99%. 
+Using the OverSampler module  only <mark>4</mark> loans were predicted to be healthy but in 'reality' were high risk.As a result the recall rate on high risk loans improved drastically from 91% to 99%. 
 
    
 ## Summary conclusions
