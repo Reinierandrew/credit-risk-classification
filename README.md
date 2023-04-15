@@ -6,7 +6,7 @@ The purpose is to build a model that can identify the creditworthiness of borrow
 I am using a set of  roughly `77.000` historical  loans that each have 7 feautures and an outcome of either a healthy loan or a high risk loan.
 The features are:
 
-* Loan size
+* loan size
 * interest rate
 * borrower income
 * debt to income ratio
