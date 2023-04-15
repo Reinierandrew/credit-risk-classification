@@ -14,9 +14,9 @@ The features are:
 * derogatory marks
 * total debt
 
-The goal is to create a model with which I can accurately predict of a loan is healthy or at high risk of defaulting.
+The goal is to create a model with which I can accurately predict if a loan is healthy or at high risk of defaulting.
  
-In analysing the dataset a concern is the low number (3%) of high risk loans on which I can build a prediction.
+In analysing the dataset a concern is the low number (3%) of high risk loans on which a prediction.
  
 ### Logistic regression
  
