@@ -26,10 +26,10 @@ The goal is to create a model with which I can accurately predict of a loan is h
  confusion_matrix(y_test, predictions)
  ```
  
-	       | Predicted healthy           | Predicted high risk|
-	       |----------------------------|--------------------|
-		|Actual healthy |18663|102|
-                           Actual high risk|<mark>56|563|
+	          | Predicted healthy           | Predicted high risk|
+	          |----------------------------|--------------------|
+|Actual healthy.  |  8663		       |102|
+|Actual high risk |<mark>56                    |563|
  
  In the above table I have highlighted the main problem.
  In these <mark>56</mark> cases the model would have advised a loan was healthy  where in 'reality' the loan was at high risk in defaulting and resulting in the lender not having the loan and it's interest repaid and thus loosing money.  
