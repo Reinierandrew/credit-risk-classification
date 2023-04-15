@@ -27,7 +27,7 @@ The goal is to create a model with which I can accurately predict of a loan is h
  ```
  
 	       | Predicted healthy           | Predicted high risk|
-		|----------------------------|--------------------|
+	       |----------------------------|--------------------|
 		|Actual healthy |18663|102|
                            Actual high risk|<mark>56|563|
  
